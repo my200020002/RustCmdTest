@@ -1,0 +1,9 @@
+[package]
+name = "rustdemo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chardet = "0.2.4"
+encoding_rs = {version="0.8.35", features = ["serde", "fast-gb-hanzi-encode"] }
+windows-sys = { version ="0.60.2", features = ["Win32_Foundation","Win32_System_Diagnostics_Debug","Win32_System_Threading",]}
